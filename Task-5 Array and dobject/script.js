@@ -1,7 +1,7 @@
 // QUESTION 1:
 // JSON ITERATE USING FOR LOOP
  
-let keys=['ayesha','nooja','sheeba','sowbia','divya']
+let keys=['jyoti','komal','gargi','kayva','divya']
 let values=[1,2,3,4,5]
 let person={}
 for(let i=0; i<keys.length;i++)
@@ -9,17 +9,17 @@ for(let i=0; i<keys.length;i++)
     person[keys[i]]=values[i]
 }
 // console.log(person);
-//output=>{ayesha: 1, nooja: 2, sheeba: 3, sowbia: 4, divya: 5}
-//         ayesha:1
-//         nooja:2
-//         sheeba:3
-//         sowbia:4
+//output=>{jyoti: 1, komal: 2, gargi: 3, kavya: 4, divya: 5}
+//         jyoti:1
+//         komal:2
+//         gargi:3
+//         kavya:4
 //         divya:5
 
 //JSON ITERATE USING FOR IN
 
 const data={
-    name:'ayesha',
+    name:'jyoti',
     age :21,
     sex :'female'
 }
@@ -27,7 +27,7 @@ for(let keys in data)
 {
     // console.log(keys+":" ,data[keys])
 }
-//output name: ayesha
+//output name: jyoti
 //       age: 21
 //        sex: female
 
@@ -63,31 +63,33 @@ for(let i of k)
 //EASY RESUME DATA IN JSON FARMAT
 
 let resume={ 
-    name         :'ayesha nooja',
-    DOB          : '01.09.2000',
+    name         :'Komal Patil',
+    DOB          : '06/12/1998',
     gender       :'female',
     nationality  :'INDIAN',
-    maried_status:'single',
-    languages_known:['tamil','english','hindi','urdu'],
-    degree        :'BBA BANKING',
-    university_board:'Alagappa University',
-    percentage_CGPA : '78%',
+    maried_status:'Married',
+    languages_known:['Marathi','english','hindi'],
+    degree        :'BCom',
+    university_board:'BAMU University',
+    percentage    : '78%',
     year_of_passing :2020,
 
 }
 console.log(resume);
-//output=>{name: 'ayesha nooja', DOB: '01.09.2000', gender: 'female', nationality: 'INDIAN', maried_status: 'single', …}
-name            : "Komal Pawar"
+//output=>{name: 'Komal Patil', DOB: '06/12/1998', gender: 'female', nationality: 'INDIAN', maried_status: 'married', …}
+name            : "Komal Patil"
 nationality     : "INDIAN"
 percentage_CGPA : "78%"
 university_board: "BAMU University"
 year_of_passing : 2020
-DOB             : "06.12.2000"
-degree          : "BBA BANKING"
+DOB             : '06/12/1998',
+degree          : "BCom"
 gender          : "female"
 languages_known : Array(4)
                  1: "english"
                  2: "hindi"
                  3: marathi
 maried_status   : "married"
-""
+
+
+
